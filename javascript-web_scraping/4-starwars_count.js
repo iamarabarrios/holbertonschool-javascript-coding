@@ -2,7 +2,7 @@
 
 const request = require('request');
 
-const apiUrl = "https://swapi-api.hbtn.io/api/films/";
+const apiUrl = `https://swapi-api.hbtn.io/api/films/`;
 const personajeId = "18";
 
 request.get(apiUrl, (err, res, body) => {
